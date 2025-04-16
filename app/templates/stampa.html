@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Stampa Conto - {{ tavolo.nome }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background: #fff;
+        }
+
+        h2 {
+            text-align: center;
+            color: #e74c3c;
+        }
+
+        .ordine {
+            max-width: 600px;
+            margin: 0 auto;
+            border: 2px dashed #e74c3c;
+            padding: 20px;
+            border-radius: 8px;
+            background: #fefefe;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .totale {
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: right;
+            font-size: 18px;
+            color: #000;
+        }
+
+        .note {
+            margin-top: 15px;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body onload="window.print()">
+    <h2>Conto - {{ tavolo.nome }}</h2>
+    <div class="ordine">
+        <ul>
+            {% for item in tavolo.ordine %}
+                <li>
+                    {{ item.quantita }} x {{ item.prodotto }}
+                    <span>€ {{ '%.2f'|format(item.prezzo_totale) }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+        <div class="totale">
+            Totale: € {{ '%.2f'|format(tavolo.ordine | sum(attribute='prezzo_totale')) }}
+        </div>
+        {% if tavolo.messaggio %}
+            <div class="note">Note: {{ tavolo.messaggio }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>

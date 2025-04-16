@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Cucina{% endblock %}
+
+{% block content %}
+<h2>Comande da Preparare</h2>
+
+<div class="ordini-container">
+    {% for tavolo in ordinazioni %}
+        <div class="ordine-box">
+            <h3>{{ tavolo.nome }} (Tavolo {{ tavolo.id }})</h3>
+            <p><strong>Orario Ordine:</strong> {{ tavolo.ultimo_ordine or '-' }}</p>
+            <ul>
+                {% for item in tavolo.ordine %}
+                    <li>{{ item.quantita }} x {{ item.prodotto }}</li>
+                {% endfor %}
+            </ul>
+            {% if tavolo.messaggio %}
+                <p><strong>Note:</strong> {{ tavolo.messaggio }}</p>
+            {% endif %}
+            <form method="POST" action="{{ url_for('main.chiudi_tavolo') }}">
+                <input type="hidden" name="tavolo_id" value="{{ tavolo.id }}">
+                <button type="submit" class="btn-verde">✅ Chiudi Tavolo</button>
+            </form>
+            <form method="POST" action="{{ url_for('main.stampa_conto') }}" target="_blank">
+                <input type="hidden" name="tavolo_id" value="{{ tavolo.id }}">
+                <button type="submit" class="btn-verde">🖨️ Stampa</button>
+            </form>
+        </div>
+    {% endfor %}
+</div>
+
+<script>
+    setInterval(() => {
+        window.location.reload();
+    }, 10000);
+</script>
+
+<style>
+    .ordini-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .ordine-box {
+        border: 2px solid #ccc;
+        border-left: 6px solid #e74c3c;
+        padding: 15px;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .ordine-box h3 {
+        margin-top: 0;
+        color: #e74c3c;
+    }
+    .ordine-box ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+</style>
+{% endblock %}

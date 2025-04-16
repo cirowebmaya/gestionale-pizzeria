@@ -1,0 +1,849 @@
+[
+    {
+        "tavolo": "Tavolo 1",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 10,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 50.0
+            }
+        ],
+        "messaggio": "ddddddddd",
+        "totale": 50.0
+    },
+    {
+        "tavolo": "Tavolo 5",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 6,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 30.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Quattro Formaggi",
+                "quantita": 4,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 28.0
+            }
+        ],
+        "messaggio": "jhjhgjhgj",
+        "totale": 58.0,
+        "orario": "2025-04-15 16:44:35"
+    },
+    {
+        "tavolo": "Tavolo 1",
+        "ordine": [
+            {
+                "categoria": "Bevande",
+                "prodotto": "Coca-Cola",
+                "quantita": 10,
+                "prezzo_unitario": 2.0,
+                "prezzo_totale": 20.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Fanta",
+                "quantita": 12,
+                "prezzo_unitario": 2.0,
+                "prezzo_totale": 24.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 4,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 20.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Pizza Bianca",
+                "quantita": 2,
+                "prezzo_unitario": 5.5,
+                "prezzo_totale": 11.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Bruschette",
+                "quantita": 9,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 36.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 4,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 20.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Torta al Cioccolato",
+                "quantita": 5,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 17.5
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Panna Cotta",
+                "quantita": 3,
+                "prezzo_unitario": 3.0,
+                "prezzo_totale": 9.0
+            }
+        ],
+        "messaggio": "oo,l,ll",
+        "totale": 157.5,
+        "orario": "2025-04-15 20:10:20",
+        "stato": "annullato"
+    },
+    {
+        "tavolo": "Tavolo 1",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 3,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 15.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Frittura Mista",
+                "quantita": 4,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 20.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Boscaiola",
+                "quantita": 5,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 35.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Limonata",
+                "quantita": 8,
+                "prezzo_unitario": 2.0,
+                "prezzo_totale": 16.0
+            }
+        ],
+        "messaggio": "jjj",
+        "totale": 86.0,
+        "orario": "2025-04-15 20:22:35",
+        "stato": "servito"
+    },
+    {
+        "tavolo": "Tavolo 1",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 22,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 110.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 10,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 50.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 4,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 20.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 5,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 25.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Tiramisù",
+                "quantita": 3,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 10.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Quattro Formaggi",
+                "quantita": 4,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 28.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 7,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 35.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Tiramisù",
+                "quantita": 3,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 10.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 1,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 5.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Diavola",
+                "quantita": 9,
+                "prezzo_unitario": 6.5,
+                "prezzo_totale": 58.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Diavola",
+                "quantita": 3,
+                "prezzo_unitario": 6.5,
+                "prezzo_totale": 19.5
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Limonata",
+                "quantita": 3,
+                "prezzo_unitario": 2.0,
+                "prezzo_totale": 6.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 5,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 25.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Boscaiola",
+                "quantita": 3,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 21.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Vino Rosso",
+                "quantita": 20,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 80.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Diavola",
+                "quantita": 4,
+                "prezzo_unitario": 6.5,
+                "prezzo_totale": 26.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Acqua Frizzante",
+                "quantita": 4,
+                "prezzo_unitario": 1.0,
+                "prezzo_totale": 4.0
+            }
+        ],
+        "messaggio": "",
+        "totale": 534.0,
+        "orario": "2025-04-16 03:53:22",
+        "stato": "servito"
+    },
+    {
+        "tavolo": "Tavolo 6",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Quattro Formaggi",
+                "quantita": 5,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 35.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Torta al Cioccolato",
+                "quantita": 2,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 7.0
+            }
+        ],
+        "messaggio": "jjjjjjjj",
+        "totale": 42.0,
+        "orario": "2025-04-16 03:54:11",
+        "stato": "annullato"
+    },
+    {
+        "tavolo": "Tavolo 1",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 11,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 55.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Pizza Bianca",
+                "quantita": 5,
+                "prezzo_unitario": 5.5,
+                "prezzo_totale": 27.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 6,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 30.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Acqua Naturale",
+                "quantita": 10,
+                "prezzo_unitario": 1.0,
+                "prezzo_totale": 10.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 10,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 50.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Tiramisù",
+                "quantita": 5,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 17.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 3,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 15.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Sprite",
+                "quantita": 7,
+                "prezzo_unitario": 2.0,
+                "prezzo_totale": 14.0
+            }
+        ],
+        "messaggio": "",
+        "orario": "04:19",
+        "totale": 219.0
+    },
+    {
+        "tavolo": "Tavolo 8",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Diavola",
+                "quantita": 5,
+                "prezzo_unitario": 6.5,
+                "prezzo_totale": 32.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Quattro Formaggi",
+                "quantita": 5,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 35.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Vegetariana",
+                "quantita": 5,
+                "prezzo_unitario": 6.0,
+                "prezzo_totale": 30.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Bufalina",
+                "quantita": 5,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 35.0
+            }
+        ],
+        "messaggio": "",
+        "orario": "04:27",
+        "totale": 132.5
+    },
+    {
+        "tavolo": "Tavolo 4",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 3,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 15.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Bruschette",
+                "quantita": 3,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 12.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Birra Rossa",
+                "quantita": 3,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 10.5
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Tiramisù",
+                "quantita": 1,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 3.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Pizza Bianca",
+                "quantita": 3,
+                "prezzo_unitario": 5.5,
+                "prezzo_totale": 16.5
+            }
+        ],
+        "messaggio": "",
+        "orario": "-",
+        "totale": 57.5
+    },
+    {
+        "tavolo": "Tavolo 4",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 3,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 15.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Bruschette",
+                "quantita": 3,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 12.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Birra Rossa",
+                "quantita": 3,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 10.5
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Tiramisù",
+                "quantita": 9,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 31.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Pizza Bianca",
+                "quantita": 3,
+                "prezzo_unitario": 5.5,
+                "prezzo_totale": 16.5
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Vino Rosso",
+                "quantita": 5,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 20.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Vino Bianco",
+                "quantita": 5,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 20.0
+            }
+        ],
+        "messaggio": "",
+        "orario": "04:30",
+        "totale": 125.5,
+        "tipo": "servito"
+    },
+    {
+        "tavolo": "Tavolo 3",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Diavola",
+                "quantita": 4,
+                "prezzo_unitario": 6.5,
+                "prezzo_totale": 26.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 13,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 65.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Capricciosa",
+                "quantita": 8,
+                "prezzo_unitario": 7.5,
+                "prezzo_totale": 60.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Olive Ascolane",
+                "quantita": 8,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 32.0
+            }
+        ],
+        "messaggio": "oioioioio",
+        "orario": "2025-04-16 04:46:12",
+        "totale": 183.0,
+        "tipo": "servito"
+    },
+    {
+        "tavolo": "Tavolo 1",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 26,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 130.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Vino Rosso",
+                "quantita": 9,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 36.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Bruschette",
+                "quantita": 15,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 60.0
+            }
+        ],
+        "messaggio": "",
+        "orario": "2025-04-16 05:28:18",
+        "totale": 226.0,
+        "tipo": "servito"
+    },
+    {
+        "tavolo": "Tavolo 1",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 3,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 15.0
+            }
+        ],
+        "messaggio": "",
+        "orario": "2025-04-16 15:59:32",
+        "totale": 15.0,
+        "tipo": "annullato"
+    },
+    {
+        "tavolo": "Tavolo 3",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Diavola",
+                "quantita": 5,
+                "prezzo_unitario": 6.5,
+                "prezzo_totale": 32.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 13,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 65.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Capricciosa",
+                "quantita": 8,
+                "prezzo_unitario": 7.5,
+                "prezzo_totale": 60.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Olive Ascolane",
+                "quantita": 8,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 32.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Panna Cotta",
+                "quantita": 5,
+                "prezzo_unitario": 3.0,
+                "prezzo_totale": 15.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Frittura Mista",
+                "quantita": 8,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 40.0
+            }
+        ],
+        "messaggio": "",
+        "orario": "2025-04-16 19:01:53",
+        "totale": 244.5,
+        "tipo": "annullato"
+    },
+    {
+        "tavolo": "Tavolo 1",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 2,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 10.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Limonata",
+                "quantita": 2,
+                "prezzo_unitario": 2.0,
+                "prezzo_totale": 4.0
+            }
+        ],
+        "messaggio": "",
+        "orario": "2025-04-16 19:04:04",
+        "totale": 14.0,
+        "tipo": "servito"
+    },
+    {
+        "tavolo": "Tavolo 4",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 8,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 40.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Bruschette",
+                "quantita": 3,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 12.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Birra Rossa",
+                "quantita": 3,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 10.5
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Tiramisù",
+                "quantita": 9,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 31.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Pizza Bianca",
+                "quantita": 3,
+                "prezzo_unitario": 5.5,
+                "prezzo_totale": 16.5
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Vino Rosso",
+                "quantita": 5,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 20.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Vino Bianco",
+                "quantita": 5,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 20.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Gelato",
+                "quantita": 5,
+                "prezzo_unitario": 2.5,
+                "prezzo_totale": 12.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Quattro Formaggi",
+                "quantita": 2,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 14.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Frittura Mista",
+                "quantita": 1,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 5.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Acqua Naturale",
+                "quantita": 1,
+                "prezzo_unitario": 1.0,
+                "prezzo_totale": 1.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Limonata",
+                "quantita": 1,
+                "prezzo_unitario": 2.0,
+                "prezzo_totale": 2.0
+            }
+        ],
+        "messaggio": "no cheese",
+        "orario": "2025-04-16 19:56:00",
+        "totale": 185.0,
+        "tipo": "servito"
+    },
+    {
+        "tavolo": "Tavolo 4",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 8,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 40.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Bruschette",
+                "quantita": 3,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 12.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Birra Rossa",
+                "quantita": 3,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 10.5
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Tiramisù",
+                "quantita": 9,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 31.5
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Pizza Bianca",
+                "quantita": 3,
+                "prezzo_unitario": 5.5,
+                "prezzo_totale": 16.5
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Vino Rosso",
+                "quantita": 5,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 20.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Vino Bianco",
+                "quantita": 5,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 20.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Gelato",
+                "quantita": 20,
+                "prezzo_unitario": 2.5,
+                "prezzo_totale": 50.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Quattro Formaggi",
+                "quantita": 2,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 14.0
+            },
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Frittura Mista",
+                "quantita": 1,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 5.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Acqua Naturale",
+                "quantita": 1,
+                "prezzo_unitario": 1.0,
+                "prezzo_totale": 1.0
+            },
+            {
+                "categoria": "Bevande",
+                "prodotto": "Limonata",
+                "quantita": 1,
+                "prezzo_unitario": 2.0,
+                "prezzo_totale": 2.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Diavola",
+                "quantita": 10,
+                "prezzo_unitario": 6.5,
+                "prezzo_totale": 65.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Torta al Cioccolato",
+                "quantita": 3,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 10.5
+            }
+        ],
+        "messaggio": "llll",
+        "orario": "2025-04-16 19:59:18",
+        "totale": 298.0,
+        "tipo": "annullato"
+    }
+]

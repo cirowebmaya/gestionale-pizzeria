@@ -1,0 +1,122 @@
+{
+    "Pizze": [
+        {
+            "nome": "Margherita",
+            "prezzo": 5.0
+        },
+        {
+            "nome": "Diavola",
+            "prezzo": 6.5
+        },
+        {
+            "nome": "Quattro Formaggi",
+            "prezzo": 7.0
+        },
+        {
+            "nome": "Capricciosa",
+            "prezzo": 7.5
+        },
+        {
+            "nome": "Prosciutto e Funghi",
+            "prezzo": 6.5
+        },
+        {
+            "nome": "Vegetariana",
+            "prezzo": 6.0
+        },
+        {
+            "nome": "Bufalina",
+            "prezzo": 7.0
+        },
+        {
+            "nome": "Tonno e Cipolla",
+            "prezzo": 6.5
+        },
+        {
+            "nome": "Boscaiola",
+            "prezzo": 7.0
+        },
+        {
+            "nome": "Pizza Bianca",
+            "prezzo": 5.5
+        }
+    ],
+    "Antipasti": [
+        {
+            "nome": "Bruschette",
+            "prezzo": 4.0
+        },
+        {
+            "nome": "Frittura Mista",
+            "prezzo": 5.0
+        },
+        {
+            "nome": "Mozzarella in Carrozza",
+            "prezzo": 4.5
+        },
+        {
+            "nome": "Olive Ascolane",
+            "prezzo": 4.0
+        }
+    ],
+    "Bevande": [
+        {
+            "nome": "Acqua Naturale",
+            "prezzo": 1.0
+        },
+        {
+            "nome": "Acqua Frizzante",
+            "prezzo": 1.0
+        },
+        {
+            "nome": "Coca-Cola",
+            "prezzo": 2.0
+        },
+        {
+            "nome": "Fanta",
+            "prezzo": 2.0
+        },
+        {
+            "nome": "Sprite",
+            "prezzo": 2.0
+        },
+        {
+            "nome": "Birra Chiara",
+            "prezzo": 3.0
+        },
+        {
+            "nome": "Birra Rossa",
+            "prezzo": 3.5
+        },
+        {
+            "nome": "Vino Rosso",
+            "prezzo": 4.0
+        },
+        {
+            "nome": "Vino Bianco",
+            "prezzo": 4.0
+        },
+        {
+            "nome": "Limonata",
+            "prezzo": 2.0
+        }
+    ],
+    "Dolci": [
+        {
+            "nome": "Tiramisù",
+            "prezzo": 3.5
+        },
+        {
+            "nome": "Panna Cotta",
+            "prezzo": 3.0
+        },
+        {
+            "nome": "Torta al Cioccolato",
+            "prezzo": 3.5
+        },
+        {
+            "nome": "Gelato",
+            "prezzo": 2.5
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "nome": "Tavolo 1",
+        "stato": "ordinando",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Margherita",
+                "quantita": 5,
+                "prezzo_unitario": 5.0,
+                "prezzo_totale": 25.0
+            }
+        ],
+        "messaggio": "",
+        "ultimo_ordine": "2025-04-16 20:42:20"
+    },
+    {
+        "id": 2,
+        "nome": "Tavolo 2",
+        "stato": "vuoto",
+        "ordine": [],
+        "messaggio": "",
+        "ultimo_ordine": "04:23"
+    },
+    {
+        "id": 3,
+        "nome": "Tavolo 3",
+        "stato": "vuoto",
+        "ordine": [],
+        "messaggio": "",
+        "ultimo_ordine": "2025-04-16 19:09:04"
+    },
+    {
+        "id": 4,
+        "nome": "Tavolo 4",
+        "stato": "ordinando",
+        "ordine": [
+            {
+                "categoria": "Antipasti",
+                "prodotto": "Bruschette",
+                "quantita": 4,
+                "prezzo_unitario": 4.0,
+                "prezzo_totale": 16.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Tiramisù",
+                "quantita": 1,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 3.5
+            }
+        ],
+        "messaggio": "",
+        "ultimo_ordine": "2025-04-16 20:08:19"
+    },
+    {
+        "id": 5,
+        "nome": "Tavolo 5",
+        "stato": "vuoto",
+        "ordine": [],
+        "messaggio": ""
+    },
+    {
+        "id": 6,
+        "nome": "Tavolo 6",
+        "stato": "vuoto",
+        "ordine": [],
+        "messaggio": ""
+    },
+    {
+        "id": 7,
+        "nome": "Tavolo 7",
+        "stato": "ordinando",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Quattro Formaggi",
+                "quantita": 6,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 42.0
+            },
+            {
+                "categoria": "Pizze",
+                "prodotto": "Diavola",
+                "quantita": 4,
+                "prezzo_unitario": 6.5,
+                "prezzo_totale": 26.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Tiramisù",
+                "quantita": 6,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 21.0
+            },
+            {
+                "categoria": "Dolci",
+                "prodotto": "Tiramisù",
+                "quantita": 5,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 17.5
+            }
+        ],
+        "messaggio": ""
+    },
+    {
+        "id": 8,
+        "nome": "Tavolo 8",
+        "stato": "ordinando",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Capricciosa",
+                "quantita": 5,
+                "prezzo_unitario": 7.5,
+                "prezzo_totale": 37.5
+            }
+        ],
+        "messaggio": "",
+        "ultimo_ordine": "2025-04-16 20:42:40"
+    },
+    {
+        "id": 9,
+        "nome": "Tavolo 9",
+        "stato": "ordinando",
+        "ordine": [
+            {
+                "categoria": "Dolci",
+                "prodotto": "Torta al Cioccolato",
+                "quantita": 1,
+                "prezzo_unitario": 3.5,
+                "prezzo_totale": 3.5
+            }
+        ],
+        "messaggio": "jjj"
+    },
+    {
+        "id": 10,
+        "nome": "Tavolo 10",
+        "stato": "ordinando",
+        "ordine": [
+            {
+                "categoria": "Pizze",
+                "prodotto": "Quattro Formaggi",
+                "quantita": 7,
+                "prezzo_unitario": 7.0,
+                "prezzo_totale": 49.0
+            }
+        ],
+        "messaggio": "hhh"
+    }
+]
